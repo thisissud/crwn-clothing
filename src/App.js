@@ -31,7 +31,6 @@ class App extends React.Component {
               ...snapshot.data()
             }
           });
-          console.log(this.state);
         });
       }
       //Setting the user to null when user logs out.
