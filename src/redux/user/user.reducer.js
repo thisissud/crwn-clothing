@@ -2,7 +2,7 @@ import { UserActionTypes } from "./user.types";
 
 const INITIAL_STATE = {
     currentUser: null
-}
+};
 
 //Passing in default value in case state is undefined.
 const userReducer = (state = INITIAL_STATE, action) => {
@@ -16,6 +16,6 @@ const userReducer = (state = INITIAL_STATE, action) => {
         default:
             return state;
     }
-}
+};
 
 export default userReducer;
